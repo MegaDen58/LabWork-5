@@ -35,8 +35,7 @@ public class Main {
     }
     public static int[] createArray(){
         Scanner in = new Scanner(System.in);
-        System.out.print("Введите длину массива: ");
-        int length = in.nextInt();
+        int length = 15;
         int[] array = new int[length];
         System.out.println("Заполните массив");
         for (int i = 0; i < length; i++){
